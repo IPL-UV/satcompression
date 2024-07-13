@@ -57,3 +57,16 @@ plt.show()
 ```
 
 ![image](docs/images/mtf_comparison.png)
+
+Obtain the classification of the quadtree nodes.
+
+```python
+import satcompression
+
+with rio.open('path/to/image.tif') as src:    
+    image_data = src.read()
+
+satcompression.create_classification_map(image_data, detail_error_threshold=20)
+```
+
+![image](docs/images/classification_map.png)

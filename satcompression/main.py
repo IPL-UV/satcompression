@@ -2,9 +2,21 @@ from typing import Optional, Union
 
 import numpy as np
 
-from satcompression.image_compressor import ImageCompressor
+from satcompression.image_compressor import ImageCompressor, ImageCompressorCategorical
 from satcompression.reconstruct_node import ReconstructNode
 from satcompression.utils import decode_image_data
+
+
+def create_classification_map(
+    image_data: np.array, 
+    iterations: int = 20000,
+    detail_error_threshold: Union[int, float, None] = None,
+):
+    compressor = ImageCompressorCategorical(image_data)
+    compressor.add_detail(
+        max_iterations=iterations, detail_error_threshold=detail_error_threshold
+    )
+    return compressor.draw()
 
 
 def compress_image_data(
