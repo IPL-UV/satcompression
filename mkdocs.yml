@@ -65,3 +65,11 @@ markdown_extensions:
   - pymdownx.tabbed
   - mdx_truly_sane_lists
   - pymdownx.tasklist
+
+# Extra CSS
+extra_css:
+  - docs/style/style.css
+
+# Extra JavaScript
+extra_javascript:
+  - docs/js/copybutton.js

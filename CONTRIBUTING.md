@@ -8,8 +8,8 @@ We welcome contributions from the community! Every contribution, no matter how s
 2. **Clone your fork locally:**
     ```bash
     cd <directory_in_which_repo_should_be_created>
-    git clone https://github.com/IPL-UV/sathybrid.git
-    cd sathybrid
+    git clone https://github.com/IPL-UV/satcompression.git
+    cd satcompression
     ```
 3. **Create a branch:** Create a new branch for your feature or bug fix:
     ```bash
@@ -43,7 +43,7 @@ We welcome contributions from the community! Every contribution, no matter how s
      ```bash
      tox
      ```
-7. **Submit a pull request:** 🚀 Push your branch to GitHub and submit a pull request to the `develop` branch of the `sathybrid` repository. Ensure your pull request meets these guidelines:
+7. **Submit a pull request:** 🚀 Push your branch to GitHub and submit a pull request to the `develop` branch of the `satcompression` repository. Ensure your pull request meets these guidelines:
    - Include tests.
    - Update the documentation if your pull request adds functionality.
    - Provide a detailed description of your changes.
@@ -51,9 +51,9 @@ We welcome contributions from the community! Every contribution, no matter how s
 ## **Types of contributions** 📦
 
 - **Report bugs:** 🐛
-  - Report bugs by creating an issue on the [sathybrid GitHub repository](https://github.com/YOUR_GITHUB_USERNAME/sathybrid/issues). Please include your operating system, setup details, and steps to reproduce the bug.
+  - Report bugs by creating an issue on the [satcompression GitHub repository](https://github.com/IPL-UV/satcompression/issues). Please include your operating system, setup details, and steps to reproduce the bug.
 - **Fix bugs:** 🛠️ Look for issues tagged with "bug" and "help wanted" in the repository to start fixing.
 - **Implement features:** ✨ Contribute by implementing features tagged with "enhancement" and "help wanted."
 - **Write documentation:** 📚 Contribute to the documentation in the official docs, docstrings, or through blog posts and articles.
 - **Submit feedback:** 💬 Propose new features or give feedback by filing an issue on GitHub.
-  - Use the [sathybrid GitHub issues page](https://github.com/YOUR_GITHUB_USERNAME/sathybrid/issues) for feedback.
+  - Use the [satcompression GitHub issues page](https://github.com/IPL-UV/sathybrid/issues) for feedback.
