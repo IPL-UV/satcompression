@@ -1,7 +1,9 @@
 # 
 
+
+
 <p align="center">
-  <img src="https://huggingface.co/datasets/JulioContrerasH/DataMLSTAC/resolve/main/banner_satcompression.png" width="100%">
+  <img src="https://huggingface.co/datasets/JulioContrerasH/DataMLSTAC/resolve/main/banner_satcompression.png" width="40%">
 </p>
 
 <p align="center">
@@ -25,7 +27,7 @@
 
 ---
 
-**GitHub**: [https://github.com/YOUR_GITHUB_USERNAME/satcompression](https://github.com/YOUR_GITHUB_USERNAME/satcompression) 🌐
+**GitHub**: [https://github.com/IPL-UV/satcompression](https://github.com/IPL-UV/satcompression) 🌐
 
 **PyPI**: [https://pypi.org/project/satcompression/](https://pypi.org/project/satcompression/) 🛠️
 
@@ -83,7 +85,7 @@ image_data_decompress = satcompression.reconstruct_image_data(
 </p>
 
 
-### **Calculate Pseudo-MTF from Quad-Tree decomposition** 📊
+### **Calculate pseudo-MTF from Quad-Tree decomposition** 📊
 
 #### **Load libraries**
 
@@ -112,7 +114,7 @@ plt.ylim(0, 1.2)
 plt.title("Pseudo-MTF obtained from the quadtree decomposition")
 plt.show()
 ```
-### **Create a classification Map from the Quad-Tree nodes** 🗺️
+### **Create a classification map from the Quad-Tree nodes** 🗺️
 
 #### **Load libraries**
 
